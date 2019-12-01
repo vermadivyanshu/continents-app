@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+  overflow: unset;
 }
 
 .App-logo {
@@ -19,4 +21,9 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Main-layout {
+  margin-top: 58px;
+
 }
