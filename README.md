@@ -7,6 +7,10 @@ This app lists the continents list, the user can click on multiple continents, i
 Install `serve` using `npm install -g serve`
 Install `workbox-cli` using `npm install -g workbox-cli`
 
+## Setup
+1. Run `npm install`
+2. Run `npm run start` or `npm run serve`
+
 ## Available Scripts
 
 In the project directory, you can run:

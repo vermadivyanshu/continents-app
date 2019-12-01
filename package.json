@@ -16,11 +16,8 @@
     "typescript": "^3.7.2"
   },
   "scripts": {
-    "start": "HTTPS=true react-scripts start",
-    "build": "HTTPS=true react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "serve": "HTTPS=true react-scripts build && workbox generateSW workbox-config.js && workbox copyLibraries build/ &&  serve -s build"
+    "start": "react-scripts start",
+    "serve": "react-scripts build && workbox generateSW workbox-config.js && build/ &&  serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
