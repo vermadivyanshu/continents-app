@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "serve": "react-scripts build && workbox generateSW workbox-config.js && build/ &&  serve -s build"
+    "serve": "react-scripts build && workbox generateSW workbox-config.js &&  serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
